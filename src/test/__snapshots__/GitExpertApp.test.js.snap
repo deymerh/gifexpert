@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el compoente <GItExpertApp /> Debe mostrar el conponente <GItExpertApp /> correctamente 1`] = `
+<Fragment>
+  <h2>
+    GitExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <GifGrid
+    category="One punch"
+    key="One punch"
+  />
+</Fragment>
+`;

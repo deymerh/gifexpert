@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componentes <GifGrid /> Debe mostrar items cuando se cargan imagenes de mi custom hook useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+     
+    One Punch
+     
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  >
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Lo que sea"
+      url="https://localhost/cualquiera/imagen.jpg"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Lo que sea"
+      url="https://localhost/cualquiera/imagen.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componentes <GifGrid /> Debe mostrarse correctamente 1`] = `
+<p>
+  Cargando...
+</p>
+`;

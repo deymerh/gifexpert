@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-const GitExpertApp = () => {
-  const [categories, setCategories] = useState(['One punch']);
+const GitExpertApp = (defaultCategories = []) => {
+  // const [categories, setCategories] = useState(['One punch']);
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
